@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale 1.0, minimum-scale=1.0">
+    <meta name="author" content="Angel Espinoza">
+    <meta name="copyright" content="Angel Espinoza">
+    <meta name="descripcion" content="Página Web Personal">
+    <meta name="keywords" content="Programación, Entornos Virtuales, Desarrollo Web, Pagina Personal">
+
+    <title>Angel Espinoza</title>
+    <link rel="icon" type="image/png" href="images/Logo.svg" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="menu.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white fixed-top py-0">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logotipo" src="images/logo.png" alt="logotipo">
+          <span class="ms-2 d-none d-md-inline">Angel Espinoza</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto text-end fs-5">
+            <a class="nav-link" href="#">Inicio</a>
+            <a class="nav-link" href="#portafolio">Portafolio</a>
+            <div class="dropdown">
+              <div class="">
+                <button class="btn btn-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sobre Mi
+                </button>
+                <ul class="dropdown-menu fs-5 text-end">
+                  <li><a id="mhistoria" class="dropdown-item" href="sobre_mi.html">Mi Historia</a></li>
+                  <li><a id="experiencia" class="dropdown-item" href="experiencia.html">Experiencia</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="dropdown mb-sm-3 mb-lg-0">
+              <div class="">
+                <button class="btn btn-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contacto
+                </button>
+                <ul class="dropdown-menu fs-5 text-end">
+                  <li><a id="correo" class="dropdown-item" href="contacto.html">Correo</a></li>
+                  <li><a id="face" class="dropdown-item" href="https://www.facebook.com/profile.php?id=100008230425113" target="_blank">Facebook</a></li>
+                  <li><a id="insta" class="dropdown-item" href="https://www.instagram.com/angelespinozaglz/" target="_blank">Instagram</a></li>
+                  <li><a id="tw" class="dropdown-item" href="#">Twitter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <!-- Presentacion -->
+    <article class="parallax">
+        <article class="parallax-overlay"></article>
+        <h1 class="parallax-title display-4">Angel Espinoza</h1>
+        <p class="lema fs-4">"Persigue tus sueños. Codifica tu camino al éxito."</p>
+    </article>
+    <section id="presentacion" class="text-center text-white">
+      <article class="container py-5">
+        <img class="d-none d-lg-inline rounded-circle img-fluid mb-4" src="images/Redes/perfil.jpg" />
+        <p class="fs-4">¡Hola! Soy Angel Espinoza, estudiante de la Universidad de Leon (UTL) y un apasionado de la programación. Desde temprana edad, descubrí mi pasión por el mundo de la programación y desde entonces no he dejado de aprender, investigar y crear. Bienvenido a mi página personal, donde comparto mi pasión por la programación y mi camino en la universidad.</p>
+        <article>
+    </section>
+
+    <!-- Portafolio -->
+    <section id="portafolio" class="container-fluid text-center py-5">
+      <div class="row justify-content-center">
+        <div class="card mb-5 col-sm-10 col-lg-8 col-xl-7 p-4">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="images/Proyectos/AplicacionClassroom.png" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title mt-5 mb-5 mb-sm-2 text-center mb-md-5 fw-bold">Aplicación Classroom</h2>
+                <p class="d-md-none">Aplicacion similar a google classroom</p>
+                <p class="card-text m-3 d-sm-none d-md-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum commodi minima voluptatem nostrum, ratione quam, amet vel obcaecati dolore doloribus rem blanditiis saepe voluptates sequi asperiores pariatur nam earum doloremque quod nesciunt. 
+                  <br>Blanditiis molestias quaerat tenetur, cum ab minus repellendus nesciunt reiciendis voluptate eum iste harum, voluptates ducimus distinctio sequi vero magnam culpa! Veniam quidem distinctio in delectus labore nemo, cumque vitae doloribus quisquam possimus quasi error ex earum. </p>
+                  <a href="#" class="btn btn-primary d-md-none d-xl-none" data-bs-toggle="modal" data-bs-target="#classroom">Ver más</a>
+                </div>
+            </div>
+          </div>
+        </div>
+          <div class="card mb-5 col-sm-10 col-lg-8 col-xl-7 p-4">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="images/Proyectos/AplicacionClima.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="card-title mt-5 mb-5 mb-sm-2 text-center mb-md-5 fw-bold">Aplicación del Clima</h2>
+                  <p class="d-md-none">Aplicacion que da el clima de una ciudad</p>
+                  <p class="card-text m-3 d-sm-none d-md-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum commodi minima voluptatem nostrum, ratione quam, amet vel obcaecati dolore doloribus rem blanditiis saepe voluptates sequi asperiores pariatur nam earum doloremque quod nesciunt. 
+                    <br>Blanditiis molestias quaerat tenetur, cum ab minus repellendus nesciunt reiciendis voluptate eum iste harum, voluptates ducimus distinctio sequi vero magnam culpa! Veniam quidem distinctio in delectus labore nemo, cumque vitae doloribus quisquam possimus quasi error ex earum. </p>
+                    <a href="#" class="btn btn-primary d-md-none d-xl-none" data-bs-toggle="modal" data-bs-target="#clima">Ver más</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-5 col-sm-10 col-lg-8 col-xl-7 p-4">
+            <div class="row g-0">
+              <div class="">
+                <img src="images/Proyectos/Gamezone_Proyecto.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-12">
+                <div class="card-body">
+                  <h2 class="card-title mt-5 mb-5 mb-sm-2 text-center mb-md-5 fw-bold">Gamezone</h2>
+                  <p class="d-md-none">Pagina Web creada como projecto de preparatoria</p>
+                  <p class="card-text m-3 d-sm-none d-md-inline">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum commodi minima voluptatem nostrum, ratione quam, amet vel obcaecati dolore doloribus rem blanditiis saepe voluptates sequi asperiores pariatur nam earum doloremque quod nesciunt. 
+                    <br>Blanditiis molestias quaerat tenetur, cum ab minus repellendus nesciunt reiciendis voluptate eum iste harum, voluptates ducimus distinctio sequi vero magnam culpa! Veniam quidem distinctio in delectus labore nemo, cumque vitae doloribus quisquam possimus quasi error ex earum. </p>
+                    <a href="#" class="btn btn-primary d-md-none d-xl-none" data-bs-toggle="modal" data-bs-target="#gamezone">Ver más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="classroom" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Aplicación Tipo Classroom</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum commodi minima voluptatem nostrum, ratione quam, amet vel obcaecati dolore doloribus rem blanditiis saepe voluptates sequi asperiores pariatur nam earum doloremque quod nesciunt. 
+                    <br>Blanditiis molestias quaerat tenetur, cum ab minus repellendus nesciunt reiciendis voluptate eum iste harum, voluptates ducimus distinctio sequi vero magnam culpa! Veniam quidem distinctio in delectus labore nemo, cumque vitae doloribus quisquam possimus quasi error ex earum.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="clima" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Aplicación del Clima</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum commodi minima voluptatem nostrum, ratione quam, amet vel obcaecati dolore doloribus rem blanditiis saepe voluptates sequi asperiores pariatur nam earum doloremque quod nesciunt. 
+                    <br>Blanditiis molestias quaerat tenetur, cum ab minus repellendus nesciunt reiciendis voluptate eum iste harum, voluptates ducimus distinctio sequi vero magnam culpa! Veniam quidem distinctio in delectus labore nemo, cumque vitae doloribus quisquam possimus quasi error ex earum.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="gamezone" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Gamezone</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum commodi minima voluptatem nostrum, ratione quam, amet vel obcaecati dolore doloribus rem blanditiis saepe voluptates sequi asperiores pariatur nam earum doloremque quod nesciunt. 
+                    <br>Blanditiis molestias quaerat tenetur, cum ab minus repellendus nesciunt reiciendis voluptate eum iste harum, voluptates ducimus distinctio sequi vero magnam culpa! Veniam quidem distinctio in delectus labore nemo, cumque vitae doloribus quisquam possimus quasi error ex earum.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="container-fluid text-black text-center text-md-end">
+      <p class="py-3">Copyright 2023 - Angel Espinoza</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

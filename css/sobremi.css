@@ -1,0 +1,153 @@
+@font-face {
+    font-family: "HelveticaM";
+    src: url(../fonts/HelveticaNowText-Medium.ttf);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat.ttf);
+}
+@font-face {
+    font-family: "Quire";
+    src: url(../fonts/QuireSansLight.ttf);
+}
+
+/* --------------------------Scrollbar----------------------------- */
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width:1vw;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bce7f8;
+    border-radius: 20px;
+    border: 3px solid #f1f2f3;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #68bddfc7; 
+}
+
+/* --------------------------Menu----------------------------- */
+.nav-link{
+	color: rgba(12, 12, 12, 0.8);
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.nav-link:hover{
+	color: rgba(13, 101, 160, 0.8);
+}
+.dropdown{
+    font-family: 'Montserrat';
+}
+.dropdown a{
+    font-weight: bold;
+}
+.dropdown-menu{
+    border-radius: 10px;
+}
+.dropdown-menu:focus{
+    outline: none;
+}
+.dropdown button {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    background-color: #fff;
+    border: none;
+}
+.dropdown button:hover{
+    color: rgba(13, 101, 160, 0.8);
+}
+.dropdown #mhistoria:hover{
+    background-color: #520ef1;
+    color: #fff;
+}
+.dropdown #experiencia:hover{
+    background-color: #0e8ef1;
+    color: #fff;
+}
+.dropdown #correo:hover{
+    background-color: #f5e507;
+    color: #fff;
+}
+.dropdown #face:hover{
+    background-color: #0e8ef1;
+    color: #fff;
+}
+.dropdown #insta:hover{
+    background-image: url("../images/Redes/insta-colores.jpeg");
+    color: #fff;
+}
+.dropdown #tw:hover{
+    background-color: #1D9BF0;
+    color: #fff;
+}
+
+/*----------------- Presentacion -------------------*/
+
+.parallax {
+    background-image: url("../images/naturaleza.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    box-shadow: 5px 5px 8px #0000004f;
+}
+
+.parallax-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 208, 186, 0.1);
+}
+
+.parallax-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'HelveticaM';
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+}
+
+#historia{
+    background-color: rgba(64, 186, 235, 0.349);
+    font-family: 'Quire';
+}
+
+.parrafos{
+     background-color: rgba(64, 186, 235, 0.349);
+     font-size: 16px;
+}
+
+article p{
+    text-align: justify !important;
+}
+
+/*----------------- Footer -------------------*/
+
+footer {
+    font-family: 'Montserrat';
+    background-color: #35d0ba;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}

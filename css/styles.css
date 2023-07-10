@@ -1,0 +1,248 @@
+@font-face {
+    font-family: "HelveticaM";
+    src: url(../fonts/HelveticaNowText-Medium.ttf);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat.ttf);
+}
+@font-face {
+    font-family: "Quire";
+    src: url(../fonts/QuireSansLight.ttf);
+}
+
+/* --------------------------Scrollbar----------------------------- */
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width:1vw;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bce7f8;
+    border-radius: 20px;
+    border: 3px solid #f1f2f3;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #68bddfc7; 
+}
+
+/* --------------------------Menu----------------------------- */
+.nav-link{
+	color: rgba(12, 12, 12, 0.8);
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.nav-link:hover{
+	color: rgba(13, 101, 160, 0.8);
+}
+.dropdown{
+    font-family: 'Montserrat';
+}
+.dropdown a{
+    font-weight: bold;
+}
+.dropdown-menu{
+    border-radius: 10px;
+}
+.dropdown-menu:focus{
+    outline: none;
+}
+.dropdown button {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    background-color: #fff;
+    border: none;
+}
+.dropdown button:hover{
+    color: rgba(13, 101, 160, 0.8);
+}
+.dropdown #mhistoria:hover{
+    background-color: #520ef1;
+    color: #fff;
+}
+.dropdown #experiencia:hover{
+    background-color: #0e8ef1;
+    color: #fff;
+}
+.dropdown #correo:hover{
+    background-color: #f5e507;
+    color: #fff;
+}
+.dropdown #face:hover{
+    background-color: #0e8ef1;
+    color: #fff;
+}
+.dropdown #insta:hover{
+    background-image: url("../images/Redes/insta-colores.jpeg");
+    color: #fff;
+}
+.dropdown #tw:hover{
+    background-color: #1D9BF0;
+    color: #fff;
+}
+/*----------------- Presentacion -------------------*/
+
+.lema{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+}
+
+.parallax {
+    background-image: url("../images/hojas.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    box-shadow: 5px 5px 8px #0000004f;
+}
+
+.parallax-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 208, 186, 0.1);
+}
+
+.parallax-title {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'HelveticaM';
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+}
+
+/* Presentacion*/
+#presentacion {
+    background-color: #35d0ba;
+    color: #fff;
+}
+
+#presentacion article img{
+    width: 200px;
+}
+
+#presentacion p{
+    font-family: 'Monterrat';
+    color: #000000;
+    text-align: justify;
+}
+
+#portafolio{
+    background-color: rgba(64, 186, 235, 0.349);
+}
+
+.card{
+    background-color: rgba(255, 255, 255, .30);
+    transition: transform .2s;
+}
+
+    .card h2{
+        font-family: 'Montserrat';
+    }
+
+    .card p{
+        font-family: 'Quire';
+    }
+
+.card:hover{
+    transform: scale(1.05);
+}
+.card a{
+    background-color: rgba(64, 186, 235, 0.349);
+    color: #020202;
+    font-family: 'Quire';
+    font-weight: bold;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .card a:hover{
+    background-color: #35d0b942;
+        border-bottom: 6px solid rgba(132, 255, 237, 0.575);
+        color: #003830;
+        cursor: pointer;
+        font-weight: bold;
+  }
+
+  .card-text{
+    text-align: justify;
+  }
+
+  .modal{
+    transition: all 0.3s;
+  }
+
+footer {
+    font-family: 'Montserrat';
+    background-color: #35d0ba;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 576px) {
+    .lema{
+        top: 65vh;
+    }
+    .parallax-title{
+        top: 50vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .lema{
+        top: 65vh;
+    }
+    .parallax-title{
+        top: 50vh;
+    }
+    .card-body{
+        text-align: justify !important;
+    }
+    .card p{
+        font-size:16px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .card-text{
+        text-align: justify !important;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .lema{
+        top: 60vh;
+    }
+    .parallax-title{
+        top: 50vh;
+    }
+}

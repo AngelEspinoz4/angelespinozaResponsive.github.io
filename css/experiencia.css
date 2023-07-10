@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "HelveticaM";
+    src: url(../fonts/HelveticaNowText-Medium.ttf);
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat.ttf);
+}
+@font-face {
+    font-family: "Quire";
+    src: url(../fonts/QuireSansLight.ttf);
+}
+
+/* --------------------------Scrollbar----------------------------- */
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width:1vw;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bce7f8;
+    border-radius: 20px;
+    border: 3px solid #f1f2f3;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #68bddfc7; 
+}
+
+/* --------------------------Menu----------------------------- */
+.nav-link{
+	color: rgba(12, 12, 12, 0.8);
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.nav-link:hover{
+	color: rgba(13, 101, 160, 0.8);
+}
+.dropdown{
+    font-family: 'Montserrat';
+}
+.dropdown a{
+    font-weight: bold;
+}
+.dropdown-menu{
+    border-radius: 10px;
+}
+.dropdown-menu:focus{
+    outline: none;
+}
+.dropdown button {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    background-color: #fff;
+    border: none;
+}
+.dropdown button:hover{
+    color: rgba(13, 101, 160, 0.8);
+}
+.dropdown #mhistoria:hover{
+    background-color: #520ef1;
+    color: #fff;
+}
+.dropdown #experiencia:hover{
+    background-color: #0e8ef1;
+    color: #fff;
+}
+.dropdown #correo:hover{
+    background-color: #f5e507;
+    color: #fff;
+}
+.dropdown #face:hover{
+    background-color: #0e8ef1;
+    color: #fff;
+}
+.dropdown #insta:hover{
+    background-image: url("../images/Redes/insta-colores.jpeg");
+    color: #fff;
+}
+.dropdown #tw:hover{
+    background-color: #1D9BF0;
+    color: #fff;
+}
+
+/*----------------- Presentacion -------------------*/
+#portada {
+    background-color: #bce7f8;
+}
+
+.exp{
+    background-color: rgba(64, 186, 235, 0.349);
+    border-radius: 10px;
+}
+
+.exp p{
+    font-family: 'Quire';
+    text-align: justify !important;
+}
+.exp h1{
+    font-family: 'Montserrat';
+}
+
+/*----------------- Footer -------------------*/
+
+footer {
+    font-family: 'Montserrat';
+    background-color: #35d0ba;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width:992px){
+    .exp{
+        border-radius: 0px;
+    }
+    .exp h1{
+        font-size: 7vh;
+    }
+    #parrafo{
+        font-size: 1rem;
+    }
+}
